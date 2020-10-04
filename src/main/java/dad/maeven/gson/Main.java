@@ -21,7 +21,7 @@ public class Main {
 			p.Nombre = scanner.nextLine();
 		}
 				
-		System.out.println("[Campo obligatorio] Introduce un apellidos:");
+		System.out.println("[Campo obligatorio] Introduce los apellidos:");
 		p.Apellidos = scanner.nextLine();
 		
 		while (!p.Apellidos.matches("^[a-zA-Z]+( [a-zA-Z]+)*$")) {
